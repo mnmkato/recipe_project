@@ -2,3 +2,8 @@
     width: 300px;
     height: auto;
 }
+
+h1{
+    background-color: green;
+    color: white;
+}
