@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: Work Sans;
+    margin: 1rem auto;
+}
+.heading{
+    text-align: center;
+}
+.search_form{
+    display: flex;
+    justify-content:center;
+}
+.recipes_grid{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+}
+.recipe_item{
+    max-width:300px;
+    margin:1rem;
+    border-radius:1rem;
+    position:relative;
+}
+.recipe_item img{
+    width:100%;
+    height:auto;
+    border-radius:1rem;
+}
+.caption{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    z-index:999;
+    color:#f0f0f0;
+    background: linear-gradient(0deg, #00000079 0%, #ffffff00 100%);
+}
+.caption a{
+    text-decoration: none;
+    color:#f0f0f0;
+}

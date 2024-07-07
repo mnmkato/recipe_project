@@ -4,21 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Iftar recipes</title>
 </head>
 <body>
-    <h1>Iftar recipes</h1>
-
-    <ol>
-        <li>
-            <a href="recipes/stuffed_dates.html">Stuffed dates</a>
-        </li>
-        <li>
-            <a href="recipes/Easy_veggie_samosas.html">Easy Veggie Samosas</a>
-        </li>
-        <li>
-            <a href="recipes/Harira.html">Harira</a>
-        </li>
-    </ol>
+    <h1 class="heading">Iftar recipes</h1>
+    <div class="search_form">
+        <form action="">
+            <input type="search" name="search_term" id="search>
+            <img src="" alt="">
+        </form>
+    </div>
+    
+    <div class="recipes_grid">
+        <div class="recipe_item">
+            <img src="./recipes/images/stuffed_dates.jpg" alt="stuffed_dates">
+            <div class="caption">
+                <a href="recipes/stuffed_dates.html"><h2>Stuffed dates</h2></a>
+                <div class="ingridients_number">4 ingridients</div>
+            </div>
+        </div>
+        <div class="recipe_item">
+            <img src="./recipes/images/samosas.jpg" alt="samosas">
+            <div class="caption">
+                <a href="recipes/Easy_veggie_samosas.html"><h2>Easy Veggie Samosas</h2></a>
+                <div class="ingridients_number">6 ingridients</div>
+            </div>
+        </div>
+        <div class="recipe_item">
+            <img src="./recipes/images/harira.jpg" alt="Harira">
+            <div class="caption">
+                <a href="recipes/Harira.html"><h2>Harira</h2></a>
+                <div class="ingridients_number">15 ingridients</div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
